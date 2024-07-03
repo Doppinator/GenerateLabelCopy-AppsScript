@@ -11,17 +11,12 @@ The script looks for data within the range of cells in this document:
   
 - It also creates a new 'label copy' document named {Cat No} inside the Release Folder, and populates it with release information from the sheet in a given format:
 
-  {Release Artist} ({Cat No})
-  
+ ```{Release Artist} ({Cat No})
   {Mix 1}. {Mix 1 Name} ({Mix 1 Duration})
-  
   [Written and produced by}
-  
   {Publisher}
-  
   {ISRC}
-  
   {Genre}
-  
   {Default Label Copy}
+```
   
