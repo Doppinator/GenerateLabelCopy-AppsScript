@@ -7,6 +7,7 @@ The script looks for data within the range of cells in this document:
 
 <img width="1728" alt="Screenshot 2024-07-03 at 14 34 28" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/b428a57b-b035-4635-8cf6-3fb0a72d2cb2">
 
+**Creating Assets**
 - If the columns 'Label Copy Link' and 'Release Folder' are empty, the script will execute, and in doing so create both the Release Folder (Named {Cat No} eg RESDEV030 in Drive.
   
 - It also creates a new 'label copy' document named {Cat No} inside the Release Folder, and populates it with release information from the sheet in a given format:
@@ -20,3 +21,5 @@ The script looks for data within the range of cells in this document:
   {Default Label Copy}
 ```
   
+<img width="1242" alt="Screenshot 2024-07-03 at 14 30 59" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/a4f58585-21e4-4f96-8c7b-739cc67a8b1c">
+
