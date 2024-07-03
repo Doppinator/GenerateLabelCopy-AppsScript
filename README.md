@@ -8,9 +8,11 @@ The script looks for data within the range of cells in this document:
 <img width="1728" alt="Screenshot 2024-07-03 at 14 34 28" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/b428a57b-b035-4635-8cf6-3fb0a72d2cb2">
 
 **Creating Assets**
-- Using a foreach() the script looks over each row to identify  if the columns 'Label Copy Link' and 'Release Folder' are empty. If null, the rest of the script will execute, starting with the main folder creation in Drive:
+- Using a foreach() the script looks over each row and stores the contents in the array row[]. This is later used to to identify if the columns 'Label Copy Link' and 'Release Folder' are empty. If null, the rest of the script will execute, starting with the main folder creation in Drive:
 
 <img width="735" alt="Screenshot 2024-07-03 at 14 51 28" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/e1515c12-8b0d-4f58-9613-81048bd3b61f">
+
+The folder name is a concatenation of {1} {2} and {3} as above.
 
 <img width="1076" alt="Screenshot 2024-07-03 at 14 30 45" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/a0904b7d-1380-4958-a116-e555dd80e5f2">
   
