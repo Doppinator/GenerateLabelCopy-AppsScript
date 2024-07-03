@@ -23,3 +23,4 @@ The script looks for data within the range of cells in this document:
   
 <img width="1242" alt="Screenshot 2024-07-03 at 14 30 59" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/a4f58585-21e4-4f96-8c7b-739cc67a8b1c">
 
+<img width="1076" alt="Screenshot 2024-07-03 at 14 30 45" src="https://github.com/Doppinator/GenerateLabelCopy-AppsScript/assets/54332156/a0904b7d-1380-4958-a116-e555dd80e5f2">
